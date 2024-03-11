@@ -1,0 +1,12 @@
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\lang58t.exe.config
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\lang58t.exe
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\lang58t.dll
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\IronPython.dll
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\IronPython.Modules.dll
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\Microsoft.Scripting.dll
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\obj\Debug\lang58t.pyprojResolveAssemblyReference.cache
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\obj\Debug\lang58t.MainForm.resources
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\obj\Debug\lang58t.pyproj.GenerateResource.Cache
+C:\Users\wojcik.m1\Desktop\Programing1\lang58t\lang58t\obj\Debug\lang58t.exe
