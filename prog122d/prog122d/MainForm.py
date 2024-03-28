@@ -80,16 +80,16 @@ class MainForm(Form):
 
 
 	def Button2Click(self, sender, e):
-		self._textBox1.Items.Clear()
+		self._listBox1.Items.Clear()
 
 	def Button3Click(self, sender, e):
-		self._textBox1.Items.Exit()
+		Application.Exit()
 
 	def Button1Click(self, sender, e):
 		heading = "x\t\ty"
 		self._listBox1.Items.Add(heading)
 		for num in range(-12, 16):
-			X = num
-			Y = 1
-			msg = str(X) + "\t\t" + str(Y)
+			x = num
+			y = x**6 + (-3*(x**5)) + (-93*(x**4)) + (87*(x**3)) + (1596*(x**2)) + -1380*x + -2800
+			msg = str(x) + "\t\t" + str(y)
 			self._listBox1.Items.Add(msg)
