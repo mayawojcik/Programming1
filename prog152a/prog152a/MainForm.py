@@ -86,7 +86,7 @@ class MainForm(Form):
 
 	def Button1Click(self, sender, e):
 		for num in range(3, 9669 + 1, 3):
-			sum = num 
+			sum = math.factorial(num)
 			msg = str(sum)
 			self._listBox1.Items.Add(msg)
 			
