@@ -147,10 +147,7 @@ class MainForm(Form):
 		self._listBox1.Items.Add(heading)
 		guests = int(self._textBox1.Text)
 		chairs = int(self._textBox2.Text)
-		Permutations = guests * 5 * 4 * 3
-		People = guests - chairs
-		heading2 = "Guests:" + "\t" + "Chairs:" + "\t" + "Permutations:" + "\t" + "People left standing"
-		self._listBox1.Items.Add(heading2)
-		msg = str(guests) + "\t" + str(chairs) + "\t" str(Permutations) + "\t" str(People)
-		self._listBox1.Items.Add(msg)
-	
+		msg1 = "guests:" + "\t\t" + "chairs:" + "\t\t"
+		self._listBox1.Items.Add(msg1)
+		msg2 = str(guests) + "\t\t" + str(chairs)
+		self._listBox1.Items.Add(msg2)
