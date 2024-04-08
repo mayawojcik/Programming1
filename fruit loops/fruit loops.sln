@@ -1,0 +1,18 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+# SharpDevelop 4.4
+Project("{FD48973F-F585-4F70-812B-4D0503B36CE9}") = "fruit loops", "fruit loops\fruit loops.pyproj", "{B5AAFF80-60A4-4BB0-B831-2118FA7BB0EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B5AAFF80-60A4-4BB0-B831-2118FA7BB0EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5AAFF80-60A4-4BB0-B831-2118FA7BB0EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5AAFF80-60A4-4BB0-B831-2118FA7BB0EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5AAFF80-60A4-4BB0-B831-2118FA7BB0EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+EndGlobal

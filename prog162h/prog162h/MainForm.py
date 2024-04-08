@@ -147,8 +147,8 @@ class MainForm(Form):
 		self._listBox1.Items.Add(heading)
 		guests = int(self._textBox1.Text)
 		chairs = int(self._textBox2.Text)
-		int(Permutations) = guests * 5 * 4 * 3
-		int(People) = guests - chairs
+		Permutations = guests * 5 * 4 * 3
+		People = guests - chairs
 		heading2 = "Guests:" + "\t" + "Chairs:" + "\t" + "Permutations:" + "\t" + "People left standing"
 		self._listBox1.Items.Add(heading2)
 		msg = str(guests) + "\t" + str(chairs) + "\t" str(Permutations) + "\t" str(People)
