@@ -86,9 +86,16 @@ class MainForm(Form):
 
 	def Button1Click(self, sender, e):
 		for num in range(3, 9669 + 1, 3):
-			sum = math.factorial(num)
-			msg = str(sum)
+			sum = (9669-3)/3 + 1
+			num2 = sum/2*(3 + 9669)
+			msg = str(num) 
+			msg2 = str(num2)
 			self._listBox1.Items.Add(msg)
+			msg3 = "==sum=="
+			msg4 = ""
+		self._listBox1.Items.Add(msg4)
+		self._listBox1.Items.Add(msg3)
+		self._listBox1.Items.Add(msg2)
 			
 			
 			
