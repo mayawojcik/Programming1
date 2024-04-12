@@ -147,7 +147,13 @@ class MainForm(Form):
 		self._listBox1.Items.Add(heading)
 		guests = int(self._textBox1.Text)
 		chairs = int(self._textBox2.Text)
-		msg1 = "guests:" + "\t\t" + "chairs:" + "\t\t"
+		sum1 = guests 
+		sum2 = sum1 - 1
+		sum3 = sum2 - 1
+		sum4 = sum3 - 1
+		standing = guests - chairs
+		combinations = sum1 * sum2 * sum3 * sum4
+		msg1 = "guests:" + "\t\t" + "chairs:" + "\t\t" + "Combinations" + "\t" + "Standing"
 		self._listBox1.Items.Add(msg1)
-		msg2 = str(guests) + "\t\t" + str(chairs)
+		msg2 = str(guests) + "\t\t" + str(chairs) + "\t\t" + str(combinations) + "\t\t" + str(standing)
 		self._listBox1.Items.Add(msg2)
