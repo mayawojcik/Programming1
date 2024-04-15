@@ -117,7 +117,5 @@ class MainForm(Form):
 		heading = "Even Integer:" + "\t" + "Sum:"
 		self._listBox1.Items.Add(heading)
 		testv = self._textBox1.Text
-		for num in range(2, 2):
-			evenint = num
-			msg1 = "evenint"
-			self._listBox1.Items.Add(msg1)
+		list1 = [testv]
+		list2 = (list1[testv, -1]
