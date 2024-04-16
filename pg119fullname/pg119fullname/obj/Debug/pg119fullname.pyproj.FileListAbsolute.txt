@@ -1,0 +1,12 @@
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\pg119fullname.exe.config
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\pg119fullname.exe
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\pg119fullname.dll
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\IronPython.dll
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\IronPython.Modules.dll
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\Microsoft.Scripting.dll
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\obj\Debug\pg119fullname.pyprojResolveAssemblyReference.cache
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\obj\Debug\pg119fullname.MainForm.resources
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\obj\Debug\pg119fullname.pyproj.GenerateResource.Cache
+C:\Users\wojcik.m1\Desktop\Programing1\pg119fullname\pg119fullname\obj\Debug\pg119fullname.exe

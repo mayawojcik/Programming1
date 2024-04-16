@@ -118,7 +118,7 @@ class MainForm(Form):
 		self._listBox1.Items.Add(heading)
 		testv = self._textBox1.Text
 		list1 = [testv]
-		list2 = (list1[0:0:-1])
+		list2 = (list1[0:testv:-1]) # 0 leaves space emtpy under even integer
 		msg1 = str(list2) + "\t\t"
 		self._listBox1.Items.Add(msg1)
 	
