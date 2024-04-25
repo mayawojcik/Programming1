@@ -10,3 +10,15 @@ C:\Users\wojcik.m1\Desktop\Programing1\prog152b\prog152b\obj\Debug\prog152b.pypr
 C:\Users\wojcik.m1\Desktop\Programing1\prog152b\prog152b\obj\Debug\prog152b.MainForm.resources
 C:\Users\wojcik.m1\Desktop\Programing1\prog152b\prog152b\obj\Debug\prog152b.pyproj.GenerateResource.Cache
 C:\Users\wojcik.m1\Desktop\Programing1\prog152b\prog152b\obj\Debug\prog152b.exe
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\prog152b.exe.config
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\prog152b.exe
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\prog152b.dll
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\IronPython.dll
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\IronPython.Modules.dll
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\Microsoft.Scripting.dll
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\obj\Debug\prog152b.pyprojResolveAssemblyReference.cache
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\obj\Debug\prog152b.MainForm.resources
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\obj\Debug\prog152b.pyproj.GenerateResource.Cache
+C:\Users\wojcik.m1\Desktop\Programming1\prog152b\prog152b\obj\Debug\prog152b.exe

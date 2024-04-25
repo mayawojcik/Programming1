@@ -117,8 +117,13 @@ class MainForm(Form):
 		heading = "Even Integer:" + "\t" + "Sum:"
 		self._listBox1.Items.Add(heading)
 		testv = self._textBox1.Text
-		list1 = [testv]
-		list2 = (list1[0:testv:-1]) # 0 leaves space emtpy under even integer
-		msg1 = str(list2) + "\t\t"
+		list1 = (testv[:len(testv):-2]) 
+		sum = list1
+		if sum >= testv:
+			return sum
+		
+		msg1 = str(list1)
+		msg2 = str(sum)
 		self._listBox1.Items.Add(msg1)
+		self._listBox1.Items.Add(msg2)
 	
