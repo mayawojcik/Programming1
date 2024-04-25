@@ -321,7 +321,7 @@ class MainForm(Form):
 		
 		if money == 0:
 			MessageBox.Show("You have no money!")
-		elif best < 1:
+		elif bet < 1:
 			MessageBox.Show("You must bet at least 1 dollar!")
 		elif bet > money and bet > money2:
 			MessageBox.Show("You don't have enough money!")
@@ -330,7 +330,7 @@ class MainForm(Form):
 			self._pictureBox4.Visible = True
 			self._timer1.Enabled = True
 			self._label3.Text = str(round(money2, 2))
-			self._prgoressBar1.Value = 0
+			self._progressBar1.Value = 0
 			
 			num1 = self.num1
 			num2 = self.num2
