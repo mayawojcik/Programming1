@@ -10,3 +10,15 @@ C:\Users\wojcik.m1\Desktop\Programing1\pg140simplecalc\pg140simplecalc\obj\Debug
 C:\Users\wojcik.m1\Desktop\Programing1\pg140simplecalc\pg140simplecalc\obj\Debug\pg140simplecalc.MainForm.resources
 C:\Users\wojcik.m1\Desktop\Programing1\pg140simplecalc\pg140simplecalc\obj\Debug\pg140simplecalc.pyproj.GenerateResource.Cache
 C:\Users\wojcik.m1\Desktop\Programing1\pg140simplecalc\pg140simplecalc\obj\Debug\pg140simplecalc.exe
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\pg140simplecalc.exe.config
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\pg140simplecalc.exe
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\pg140simplecalc.dll
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\IronPython.dll
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\IronPython.Modules.dll
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\Microsoft.Scripting.dll
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\obj\Debug\pg140simplecalc.pyprojResolveAssemblyReference.cache
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\obj\Debug\pg140simplecalc.MainForm.resources
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\obj\Debug\pg140simplecalc.pyproj.GenerateResource.Cache
+C:\Users\wojcik.m1\Desktop\Programming1\pg140simplecalc\pg140simplecalc\obj\Debug\pg140simplecalc.exe

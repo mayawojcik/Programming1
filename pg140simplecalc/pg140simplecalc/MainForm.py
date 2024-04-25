@@ -270,8 +270,8 @@ class MainForm(Form):
 
 	def Button1Click(self, sender, e):
 		self._label3.Text = "+"
-		num1 = int(self._textBox1.Text)
-		num2 = int(self._textBox2.Text)
+		num1 = float(self._textBox1.Text)
+		num2 = float(self._textBox2.Text)
 		result = num1 + num2
 		self._label6.Text = str(result)
 
@@ -286,43 +286,43 @@ class MainForm(Form):
 
 	def Button2Click(self, sender, e):
 		self._label3.Text = "-"
-		num1 = int(self._textBox1.Text)
-		num2 = int(self._textBox2.Text)
+		num1 = float(self._textBox1.Text)
+		num2 = float(self._textBox2.Text)
 		result = num1 - num2
 		self._label6.Text = str(result)
 		
 
 	def Button3Click(self, sender, e):
 		self._label3.Text = "*"
-		num1 = int(self._textBox1.Text)
-		num2 = int(self._textBox2.Text)
+		num1 = float(self._textBox1.Text)
+		num2 = float(self._textBox2.Text)
 		result = num1 * num2
 		self._label6.Text = str(result)
 
 	def Button4Click(self, sender, e):
 		self._label3.Text = "^"
-		num1 = int(self._textBox1.Text)
-		num2 = int(self._textBox2.Text)
+		num1 = float(self._textBox1.Text)
+		num2 = float(self._textBox2.Text)
 		result = num1 ^ num2
 		self._label6.Text = str(result)
 
 	def Button5Click(self, sender, e):
 		self._label3.Text = "/"
-		num1 = int(self._textBox1.Text)
-		num2 = int(self._textBox2.Text)
+		num1 = float(self._textBox1.Text)
+		num2 = float(self._textBox2.Text)
 		result = num1 / num2
 		self._label6.Text = str(result)
 
 	def Button6Click(self, sender, e):
 		self._label3.Text = "//"
-		num1 = int(self._textBox1.Text)
-		num2 = int(self._textBox2.Text)
+		num1 = float(self._textBox1.Text)
+		num2 = float(self._textBox2.Text)
 		result = num1 // num2
 		self._label6.Text = str(result)
 
 	def Button7Click(self, sender, e):
 		self._label3.Text = "MOD"
-		num1 = int(self._textBox1.Text)
-		num2 = int(self._textBox2.Text)
-		result = num + num2
+		num1 = float(self._textBox1.Text)
+		num2 = float(self._textBox2.Text)
+		result = num1 + num2
 		self._label6.Text = str(result)
