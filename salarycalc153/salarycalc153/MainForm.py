@@ -133,7 +133,8 @@ class MainForm(Form):
 		Application.Exit()
 
 	def Button1Click(self, sender, e):
-		annsalary = str(self._textBox1.Text)
-		pppy = str(self._textBox2.Text)
-		sppy = annsalary / pppy
-		self._label4.Text = sppy
+		AnnSal = str(self._textBox1.Text)
+		Pay = str(self._textBox2.Text)
+		Salary = AnnSal / Pay
+		Salary = round(Salary, 2)
+		self._label4.Text = Salary
