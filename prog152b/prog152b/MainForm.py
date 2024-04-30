@@ -120,10 +120,7 @@ class MainForm(Form):
 		list1 = (testv[:len(testv):-2]) 
 		sum = list1
 		if sum >= testv:
-			return sum
+			
 		
-		msg1 = str(list1)
-		msg2 = str(sum)
-		self._listBox1.Items.Add(msg1)
-		self._listBox1.Items.Add(msg2)
+		
 	
