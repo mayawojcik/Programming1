@@ -1,0 +1,10 @@
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\PONG.exe.config
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\PONG.exe
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\PONG.dll
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\IronPython.dll
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\IronPython.Modules.dll
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\Microsoft.Dynamic.dll
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\Microsoft.Scripting.dll
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\Microsoft.Scripting.Metadata.dll
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\obj\Debug\PONG.pyprojResolveAssemblyReference.cache
+C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\obj\Debug\PONG.exe
