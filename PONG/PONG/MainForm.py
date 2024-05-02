@@ -13,21 +13,21 @@ class MainForm(Form):
         self.flagleft = False
         self.flagright = False
     
-    def InitializeComponent(self):
-        self._components = System.ComponentModel.Container()
-        self._lbltitle = System.Windows.Forms.Label()
-        self._leftscore = System.Windows.Forms.Label()
-        self._rightscore = System.Windows.Forms.Label()
-        self._lblball = System.Windows.Forms.Label()
-        self._lblleft = System.Windows.Forms.Label()
-        self._lblright = System.Windows.Forms.Label()
-        self._timerright = System.Windows.Forms.Timer(self._components)
-        self._timerleft = System.Windows.Forms.Timer(self._components)
-        self._timerball = System.Windows.Forms.Timer(self._components)
-        self._timermulti = System.Windows.Forms.Timer(self._components)
-        self._timerdummy = System.Windows.Forms.Timer(self._components)
-        self._timerboolean = System.Windows.Forms.Timer(self._components)
-        self.SuspendLayout()
+   def InitializeComponent(self):
+		self._components = System.ComponentModel.Container()
+		self._lbltitle = System.Windows.Forms.Label()
+		self._leftscore = System.Windows.Forms.Label()
+		self._rightscore = System.Windows.Forms.Label()
+		self._lblball = System.Windows.Forms.Label()
+		self._lblleft = System.Windows.Forms.Label()
+		self._lblright = System.Windows.Forms.Label()
+		self._timerright = System.Windows.Forms.Timer(self._components)
+		self._timerleft = System.Windows.Forms.Timer(self._components)
+		self._timerball = System.Windows.Forms.Timer(self._components)
+		self._timermulti = System.Windows.Forms.Timer(self._components)
+		self._timerdummy = System.Windows.Forms.Timer(self._components)
+		self._timerboolean = System.Windows.Forms.Timer(self._components)
+		self.SuspendLayout()
         # 
         # lbltitle
         # 
