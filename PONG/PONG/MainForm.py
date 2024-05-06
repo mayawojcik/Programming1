@@ -120,7 +120,7 @@ class MainForm(Form):
 		self.Controls.Add(self._leftscore)
 		self.Controls.Add(self._lbltitle)
 		self.Name = "MainForm"
-		self.Text = "pong2"
+		self.Text = "Pong"
 		self.Load += self.MainFormLoad
 		self.SizeChanged += self.MainFormSizeChanged
 		self.KeyDown += self.MainFormKeyDown
@@ -247,9 +247,13 @@ class MainForm(Form):
 		# TODO: FINISH MULTIPLAYER CONTROLS
 		if tmult.Enabled and tball.Enabled:
 			if e.KeyBode == Keys.W:
-				pass
+				self.flagright = False
+				tright.Enabled = True
 			elif e.KeyCode == Keys.S:
-				pass
+				self.flagright = True
+				tright.Enabled = True
+			elif tright.Enabled and self.flagright == False:
+				tright.Enabled = False
 		
 
 	def MainFormLoad(self, sender, e):
