@@ -248,13 +248,13 @@ class MainForm(Form):
 		# TODO: FINISH MULTIPLAYER CONTROLS
 		if tmult.Enabled and tball.Enabled:
 			if e.KeyCode == Keys.W:
-				self.flagright = False
-				tright.Enabled = True
+				self.flagleft = False
+				tleft.Enabled = True
 			elif e.KeyCode == Keys.S:
-				self.flagright = True
-				tright.Enabled = True
-			elif tright.Enabled and self.flagright == False:
-				tright.Enabled = False
+				self.flagleft = True
+				tleft.Enabled = True
+			elif tleft.Enabled and self.flagleft == False:
+				tleft.Enabled = False
 		
 
 	def MainFormLoad(self, sender, e):
