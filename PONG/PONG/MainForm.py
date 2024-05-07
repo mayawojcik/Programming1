@@ -145,7 +145,7 @@ class MainForm(Form):
 			self.ballup = self.R.Next(-4, 5)
 		elif ball.Left <= lpdl.Left and ball.Bottom >= rpdl.Top and ball.Top <= rpdl.Bottom:
 			self.balld = 1
-			self.ballup = self.R.Next(-4, 5)
+			self.ballup = self.L.Next(-4, 5)
 			
 		if ball.Top <= 0:
 			self.balld = -1
@@ -167,6 +167,10 @@ class MainForm(Form):
 			self.ballup = -1
 			
 		if ball.Location.X <= 0 or (ball.Location.X < lpdl.Left - 20 and ball.Location.Y < lpdl.Top):
+			rscore += 1
+			ball.Left = self.Width // 2
+			ball.Top = self.Height // 2
+			self._rightscore.Text = str(rscore)
 			#Finish Left Boundary
 			pass
 			
