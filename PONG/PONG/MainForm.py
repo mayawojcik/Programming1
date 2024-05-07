@@ -168,6 +168,7 @@ class MainForm(Form):
 			
 		if ball.Location.X <= 0 or (ball.Location.X < lpdl.Left - 20 and ball.Location.Y < lpdl.Top):
 			#Finish Left Boundary
+			pass
 			
 		if ball.Location.X >= self.Width or (ball.Location.X > rpdl.Right + 20 and ball.Locatoion.Y > rpdl.Top):
 			lscore += 1
@@ -185,7 +186,7 @@ class MainForm(Form):
 			self._lbltitle.Text = "LEFT PLAYER WINS! Press R to restart"
 			
 		# TODO: ?
-		of self._timerboolean.Enabled == True:
+		if self._timerboolean.Enabled == True:
 			lpdl.Top = ball.Top - 20
 			
 	def MainFormKeyDown(self, sender, e):
