@@ -127,7 +127,7 @@ class MainForm(Form):
 		self.ResumeLayout(False)
 
 
-	def lblballClick(self, sender, e):
+	def Label4Click(self, sender, e):
 		self._lblball.BackColor = Color.AliceBlue
 		self.BackColor = Color.DeepPink
 
@@ -170,7 +170,7 @@ class MainForm(Form):
 			#Finish Left Boundary
 			pass
 			
-		if ball.Location.X >= self.Width or (ball.Location.X > rpdl.Right + 20 and ball.Locatoion.Y > rpdl.Top):
+		if ball.Location.X >= self.Width or (ball.Location.X > rpdl.Right + 20 and ball.Location.Y > rpdl.Top):
 			lscore += 1
 			ball.Left = self.Width // 2 
 			ball.Top = self.Height // 2
@@ -223,11 +223,11 @@ class MainForm(Form):
 		if e.KeyCode == Keys.R:
 			reset()
 		# TODO: SECRET CONTROL?
-		if e.KeyBode == Keys.Enter:
+		if e.KeyCode == Keys.Enter:
 			tball.Enabled = True
 			tdum.Enabled = True
 			tbool.Enabled = not tmult.Enabled
-			title.Visbile = False
+			title.Visible = False
 			
 		if e.KeyCode == Keys.M:
 			reset()
@@ -247,7 +247,7 @@ class MainForm(Form):
 		
 		# TODO: FINISH MULTIPLAYER CONTROLS
 		if tmult.Enabled and tball.Enabled:
-			if e.KeyBode == Keys.W:
+			if e.KeyCode == Keys.W:
 				self.flagright = False
 				tright.Enabled = True
 			elif e.KeyCode == Keys.S:
