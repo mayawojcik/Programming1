@@ -128,7 +128,7 @@ class MainForm(Form):
 
 
 	def Label4Click(self, sender, e):
-		self._lblball.BackColor = Color.AliceBlue
+		self._lblball.BackColor = Color.Turquoise
 		self.BackColor = Color.DeepPink
 
 	def TimerballTick(self, sender, e):
@@ -145,7 +145,7 @@ class MainForm(Form):
 			self.ballup = self.R.Next(-4, 5)
 		elif ball.Left <= lpdl.Left and ball.Bottom >= rpdl.Top and ball.Top <= rpdl.Bottom:
 			self.balld = 1
-			self.ballup = self.L.Next(-4, 5)
+			self.ballup = self.R.Next(-4, 5)
 			
 		if ball.Top <= 0:
 			self.balld = -1
@@ -181,6 +181,15 @@ class MainForm(Form):
 			self._leftscore.Text = str(lscore)
 			# TODO: FINISH RIGHT SCORE WIN CONDITION
 			
+		if rscore == 10:
+			self._timerball.Enabled = False
+			ball.Left = self.Width // 2
+			ball.Top = self.Height // 2
+			self.ballup = 0
+			self._lbltitle.Visible = True
+			self._lbltitle.Text = "RIGHT PLAYER WINS! Press R to restart"
+			
+			
 		if lscore == 10: # LEFT WIN CONDITION RN
 			self._timerball.Enabled = False
 			ball.Left = self.Width // 2
@@ -191,7 +200,8 @@ class MainForm(Form):
 			
 		# TODO: ?
 		if self._timerboolean.Enabled == True:
-			lpdl.Top = ball.Top - 20
+			lpdl.Top = ball.Top - 10
+			pass
 			
 	def MainFormKeyDown(self, sender, e):
 		tball = self._timerball
@@ -218,8 +228,8 @@ class MainForm(Form):
 			tright.Enabled = False
 			bl.Left = self.Width // 2
 			bl.Top = self.Height // 2
-			lblf.Top = (self.Height // 2) - 50 + lblf.Height
-			lbrt.Top = (self.Height // 2) - 50 + lblf.Height
+			lblf.Top = (self.Height // 2) - 75 + lblf.Height
+			lbrt.Top = (self.Height // 2) - 75 + lblf.Height
 			# TODO: RESET SECRETS
 			bl.BackColor = Color.White
 			self.BackColor = Color.Black
