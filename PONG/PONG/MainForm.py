@@ -40,6 +40,7 @@ class MainForm(Form):
 		self._lbltitle.TabIndex = 0
 		self._lbltitle.Text = "Press Enter to Start or M to start Multiplayer"
 		self._lbltitle.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		self._lbltitle.Click += self.LbltitleClick
 		# 
 		# leftscore
 		# 
@@ -150,20 +151,18 @@ class MainForm(Form):
 		if ball.Top <= 0:
 			self.balld = -1
 			ball.Top += 5 * self.balld
-			self.ballup *= -1
 		elif ball.Bottom >= self.Height:
 			self.balld = 1
 			ball.Top += 5 * self.balld
-			self.ballup *= -1
+					
+		#if ball.Top <= 0:
+		#	self.ballup *= -1
+		#elif ball.Top >= self.Height:
+		#	self.ballup *= -1
 			
-		if ball.Top <= 0:
-			self.ballup *= -1
-		elif ball.Top >= self.Height:
-			self.ballup *= -1
-			
-		if ball.Top <= self.Top:
+		if ball.Top <= self.Top + 10:
 			self.ballup = 1
-		elif ball.Top >= self.Height:
+		elif ball.Top >= self.Height - 50:
 			self.ballup = -1
 			
 		if ball.Location.X <= 0 or (ball.Location.X < lpdl.Left - 20 and ball.Location.Y < lpdl.Top):
@@ -200,7 +199,7 @@ class MainForm(Form):
 			
 		# TODO: ?
 		if self._timerboolean.Enabled == True:
-			lpdl.Top = ball.Top - 10
+			lpdl.Top = ball.Top - 90
 			pass
 			
 	def MainFormKeyDown(self, sender, e):
@@ -228,11 +227,12 @@ class MainForm(Form):
 			tright.Enabled = False
 			bl.Left = self.Width // 2
 			bl.Top = self.Height // 2
-			lblf.Top = (self.Height // 2) - 75 + lblf.Height
-			lbrt.Top = (self.Height // 2) - 75 + lblf.Height
+			lblf.Top = (self.Height // 2) - 50 + lblf.Height
+			lbrt.Top = (self.Height // 2) - 50 + lblf.Height
 			# TODO: RESET SECRETS
 			bl.BackColor = Color.White
 			self.BackColor = Color.Black
+			
 			
 		if e.KeyCode == Keys.R:
 			reset()
@@ -299,3 +299,7 @@ class MainForm(Form):
 		self._lblball.Top = self.Height // 2
 		self._lbltitle.Width = self.Width - 25
 		self._rightscore.Left = self.Width - 75 - self._rightscore.Width
+
+	def LbltitleClick(self, sender, e):
+		self._lbltitle.Text = "Meow"
+		

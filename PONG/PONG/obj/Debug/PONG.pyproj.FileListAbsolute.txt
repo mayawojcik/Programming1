@@ -8,3 +8,5 @@ C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\Microsoft.Scripting.
 C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\bin\Debug\Microsoft.Scripting.Metadata.dll
 C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\obj\Debug\PONG.pyprojResolveAssemblyReference.cache
 C:\Users\wojcik.m1\Desktop\Programming1\PONG\PONG\obj\Debug\PONG.exe
+C:\Users\wojcik.m1\Desktop\Programming1\Pong\Pong\obj\Debug\Pong.MainForm.resources
+C:\Users\wojcik.m1\Desktop\Programming1\Pong\Pong\obj\Debug\Pong.pyproj.GenerateResource.Cache
