@@ -53,6 +53,7 @@ class MainForm(Form):
 		self._leftscore.TabIndex = 1
 		self._leftscore.Text = "0"
 		self._leftscore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		self._leftscore.Click += self.LeftscoreClick
 		# 
 		# rightscore
 		# 
@@ -312,3 +313,6 @@ class MainForm(Form):
 	def RightscoreClick(self, sender, e):
 		MessageBox.Show("HA! I bet you thought that your score would change...embarassing...")
 		Application.Exit()
+
+	def LeftscoreClick(self, sender, e):
+		self._leftscore.Text = "1000"
