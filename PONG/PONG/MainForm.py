@@ -65,6 +65,7 @@ class MainForm(Form):
 		self._rightscore.TabIndex = 2
 		self._rightscore.Text = "0"
 		self._rightscore.TextAlign = System.Drawing.ContentAlignment.MiddleCenter
+		self._rightscore.Click += self.RightscoreClick
 		# 
 		# lblball
 		# 
@@ -173,7 +174,7 @@ class MainForm(Form):
 			#Finish Left Boundary
 			pass
 			
-		if ball.Location.X >= self.Width or (ball.Location.X > rpdl.Right + 20 and ball.Location.Y > rpdl.Top):
+		if ball.Location.X >= self.Width or (ball.Location.X > rpdl.Right + 5 and ball.Location.Y > rpdl.Top):
 			lscore += 1
 			ball.Left = self.Width // 2 
 			ball.Top = self.Height // 2
@@ -199,7 +200,11 @@ class MainForm(Form):
 			
 		# TODO: ?
 		if self._timerboolean.Enabled == True:
-			lpdl.Top = ball.Top - 90
+			lpdl.Top = ball.Top - 25
+		#elif self._timerboolean.Enabled == False:
+			#lpdl.Top = ball.Top + 25
+			
+			
 			pass
 			
 	def MainFormKeyDown(self, sender, e):
@@ -227,8 +232,8 @@ class MainForm(Form):
 			tright.Enabled = False
 			bl.Left = self.Width // 2
 			bl.Top = self.Height // 2
-			lblf.Top = (self.Height // 2) - 50 + lblf.Height
-			lbrt.Top = (self.Height // 2) - 50 + lblf.Height
+			lblf.Top = (self.Height // 2) - 75 + lblf.Height
+			lbrt.Top = (self.Height // 2) - 75 + lblf.Height
 			# TODO: RESET SECRETS
 			bl.BackColor = Color.White
 			self.BackColor = Color.Black
@@ -242,6 +247,7 @@ class MainForm(Form):
 			tdum.Enabled = True
 			tbool.Enabled = not tmult.Enabled
 			title.Visible = False
+				
 			
 		if e.KeyCode == Keys.M:
 			reset()
@@ -259,7 +265,6 @@ class MainForm(Form):
 			elif tright.Enabled and self.flagright == False:
 				tright.Enabled = False
 		
-		# TODO: FINISH MULTIPLAYER CONTROLS
 		if tmult.Enabled and tball.Enabled:
 			if e.KeyCode == Keys.W:
 				self.flagleft = False
@@ -303,3 +308,7 @@ class MainForm(Form):
 	def LbltitleClick(self, sender, e):
 		self._lbltitle.Text = "Meow"
 		
+
+	def RightscoreClick(self, sender, e):
+		MessageBox.Show("HA! I bet you thought that your score would change...embarassing...")
+		Application.Exit()
