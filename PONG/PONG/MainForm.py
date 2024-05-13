@@ -80,7 +80,7 @@ class MainForm(Form):
 		# lblleft
 		# 
 		self._lblleft.BackColor = System.Drawing.Color.White
-		self._lblleft.Location = System.Drawing.Point(12, 246)
+		self._lblleft.Location = System.Drawing.Point(17, 246)
 		self._lblleft.Name = "lblleft"
 		self._lblleft.Size = System.Drawing.Size(20, 100)
 		self._lblleft.TabIndex = 4
@@ -158,9 +158,10 @@ class MainForm(Form):
 			ball.Top += 5 * self.balld
 					
 		#if ball.Top <= 0:
-		#	self.ballup *= -1
+			#self.ballup *= -1
 		#elif ball.Top >= self.Height:
-		#	self.ballup *= -1
+			#self.ballup *= -1
+			
 			
 		if ball.Top <= self.Top + 10:
 			self.ballup = 1
@@ -173,7 +174,7 @@ class MainForm(Form):
 			ball.Top = self.Height // 2
 			self._rightscore.Text = str(rscore)
 			#Finish Left Boundary
-			pass
+			
 			
 		if ball.Location.X >= self.Width or (ball.Location.X > rpdl.Right + 5 and ball.Location.Y > rpdl.Top):
 			lscore += 1
@@ -201,12 +202,11 @@ class MainForm(Form):
 			
 		# TODO: ?
 		if self._timerboolean.Enabled == True:
-			lpdl.Top = ball.Top - 25
-		#elif self._timerboolean.Enabled == False:
-			#lpdl.Top = ball.Top + 25
+			lpdl.Top = ball.Top - 20
+		
 			
 			
-			pass
+			
 			
 	def MainFormKeyDown(self, sender, e):
 		tball = self._timerball
@@ -315,4 +315,4 @@ class MainForm(Form):
 		Application.Exit()
 
 	def LeftscoreClick(self, sender, e):
-		self._leftscore.Text = "1000"
+		self._leftscore.Text = "100"
