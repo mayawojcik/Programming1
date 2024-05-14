@@ -199,10 +199,10 @@ class MainForm(Form):
 			self.ballup = 0
 			self._lbltitle.Visible = True
 			self._lbltitle.Text = "LEFT PLAYER WINS! Press R to restart"
-			
+	
 		# TODO: ?
-		if self._timerboolean.Enabled == True:
-			lpdl.Top = ball.Top - 20
+		#if self._timerboolean.Enabled == True:
+			#lpdl.Top = ball.Top - 20
 		
 			
 			
@@ -316,3 +316,5 @@ class MainForm(Form):
 
 	def LeftscoreClick(self, sender, e):
 		self._leftscore.Text = "100"
+		self._lbltitle.Text = "LEFT PLAYER WINS HAHAHA!"
+		self._rightscore.Text = "-100"
