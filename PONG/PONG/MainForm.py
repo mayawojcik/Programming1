@@ -116,9 +116,9 @@ class MainForm(Form):
 		# 
 		self.BackColor = System.Drawing.Color.Black
 		self.ClientSize = System.Drawing.Size(988, 607)
-		self.Controls.Add(self._lblright)
-		self.Controls.Add(self._lblleft)
 		self.Controls.Add(self._lblball)
+		self.Controls.Add(self._lblleft)
+		self.Controls.Add(self._lblright)
 		self.Controls.Add(self._rightscore)
 		self.Controls.Add(self._leftscore)
 		self.Controls.Add(self._lbltitle)
@@ -201,8 +201,8 @@ class MainForm(Form):
 			self._lbltitle.Text = "LEFT PLAYER WINS! Press R to restart"
 	
 		# TODO: ?
-		#if self._timerboolean.Enabled == True:
-			#lpdl.Top = ball.Top - 20
+		if self._timerboolean.Enabled == True:
+			lpdl.Top = ball.Top - 20
 		
 			
 			
